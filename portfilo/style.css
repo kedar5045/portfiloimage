@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+.into{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top:120px;
+    color:white;
+    padding:30px;
+}
+.text{
+    position:absolute;
+    top:200px;
+    background-color: black;
+    justify-content: center;
+    left:200px;
+    border:solid 2px white;
+    width:500px;
+    height:400px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    width:500px;
+    height:400px;
+    position:relative;
+    top:200px;
+    left:900px;
+    justify-content: center;
+}
+.box{
+    border:solid 2px rgb(13, 12, 12);
+    width:auto;
+    row-gap:30px;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode:screen;
+    transition: all 1s ease-in-out;
+}
+.box:hover{
+    background-color: #999;
+    background-position: top;
+}
+
+#box1{
+    grid-row: 1/4;
+    background-image: url("nature1.avif");
+    background-position: center;
+    background-size: cover;
+}
+#box2{
+    grid-column:2/4;
+    background-image: url("nature2.avif");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+#box3{
+    grid-row:2/3;
+    background-image:url("nature3.avif");
+    background-position: center;
+    background-size: cover;
+
+}
+#box4{
+    grid-row:2/4;
+    background-image:url("nature3.avif");
+    background-position: center;
+    background-size: cover;
+}
+#box7{
+    grid-column:-3/-1;
+}
+#box5{
+    background-image:url("nature5.avif");
+    background-position: center;
+    background-size: cover;
+}
+#box6{
+    background-image:url("nature6.avif");
+    background-position: center;
+    background-size: cover;
+
+}
+#box7{
+    background-image:url("nature7.avif");
+    background-position: center;
+    background-size: cover;
+
+}
+
